@@ -27,11 +27,11 @@ export default function Home() {
            Ryan Walker
           </h1>
 
-          <nav className="hidden md:flex gap-10 text-sm text-gray-300">
-            <Link href="/about" className="hover:text-orange-400 transition">About</Link>
-            <Link href="/services" className="hover:text-orange-400 transition">Services</Link>
-            <Link href="/portfolio" className="hover:text-orange-400 transition">Portfolio</Link>
-            <Link href="/insights" className="hover:text-orange-400 transition">Insights</Link>
+          <nav className="flex gap-6 text-sm text-gray-300">
+            <Link href="/About" className="hover:text-orange-400 transition">About</Link>
+            <Link href="/Services" className="hover:text-orange-400 transition">Services</Link>
+            <Link href="/Portfolio" className="hover:text-orange-400 transition">Portfolio</Link>
+            <Link href="/Insights" className="hover:text-orange-400 transition">Insights</Link>
           </nav>
 
           <button className="bg-orange-500 hover:bg-orange-600 transition px-6 py-3 rounded-full text-sm font-medium shadow-lg">
